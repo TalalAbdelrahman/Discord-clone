@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container{
+    background-image: url(hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    width: 90%;
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 320px;
+}
+
+ul li a{
+    color: white;
+    transition: .3s ease all;
+    font-size: 15px;
+    margin-left: 35px;
+    font-weight: bolder;
+}
+
+.container nav ul li a:hover {
+    color: #000;
+}
+
+
+
+.container img{
+    margin-left: 350px;
+    position: relative;
+    left: -100px;
+}
+
+.login{
+    font-weight: normal;
+    color: #000;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    position: relative;
+    right: 120px;
+}
+
+.login:hover{
+    box-shadow: 2px 5px 20px 1px rgb(201, 196, 196);
+}
+
+.section1{
+    position: relative;
+    top: 140px;
+    text-align: center;
+    color: #ffff;
+}
+
+.section1 h1{
+    font-family: 'Bebas Neue', sans-ser;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 30px;
+}
+
+.section1 p{
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.section1 a{
+    margin-top: 30px;
+    display: inline-block;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.download-btn{
+    margin-right: 25px;
+    color: #000;
+    background-color: white;
+}
+
+.download-btn:hover{
+    color: #5965F3;
+    box-shadow: 2px 5px 20px 1px #7982F4;
+    transition: .3s ease all;
+}
+
+.open-btn{
+    color: white;
+    background-color: #000000;
+}
+
+.open-btn:hover,
+.download-btn-section5:hover{
+    opacity: 0.9;
+    box-shadow: 2px 5px 20px 1px rgb(26, 24, 24);
+    transition: .3s ease all;
+}
+
+.section2{
+    position: relative;
+    top: 260px;
+    right: 150px;
+    height: 85vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.section2 h2{
+    font-size: 42px;
+}
+
+.section2 p{
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.section3 {
+    background-color: #F6F7F7;
+    position: relative;
+    top: 260px;
+    height: 85vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.section3 h2{
+    font-size: 42px;
+}
+
+.section3 p{
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.section4{
+    position: relative;
+    top: 260px;
+    right: 150px;
+    height: 85vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.section4 h2{
+    font-size: 42px;
+}
+
+.section4 p{
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.section5 {
+    background-color: #F6F7F7;
+    position: relative;
+    top: 260px;
+    height: 185vh;
+    text-align: center;
+}
+
+.section5 h1{
+    font-family: 'Bebas Neue', sans-ser;
+    position: relative;
+    top: 175px;
+    letter-spacing: 5px;
+    font-size: 62px;
+}
+
+.section5 p{
+    position: relative;
+    top: 175px;
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.section5 img {
+    height: 90vh;
+    width: 1050px;
+    position: relative;
+    top: 200px;
+    object-fit: contain;
+}
+
+.btn-download2 h2{
+    color: #000;
+    font-size: 30px;
+    position: relative;
+    top: 260px;
+}
+.download-btn-section5{
+    position: relative;
+    top: 320px;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    z-index: 999;
+    background-color: #7982F4;
+}
+
+.fotter{
+    background-color: #22262A;
+    height: 110vh;
+    overflow: hidden;
+}
+
+.row-select{
+    position: relative;
+    top: 340px;
+    font-size: 18px;
+    left: 240px;
+}
+
+select{
+    background-color: transparent;
+    border: none;
+    color: #Ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sociel-media{
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.row1-ul ul {
+    position: relative;
+    bottom: 80px;
+    left: 320px;
+    list-style: none;
+    align-items: center;
+    color: #Ffffff;
+}
+
+.row1-ul ul li{
+    margin-top: 5px
+}
+
+.row1-ul ul li a{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.head-row1{
+    color: #5965F3;
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+}
+
+.row2-ul ul {
+    position: relative;
+    bottom: 275px;
+    left: 520px;
+    list-style: none;
+    align-items: center;
+    color: #Ffffff;
+}
+
+.row2-ul ul li{
+    margin-top: 5px
+}
+
+.row2-ul ul li a{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.head-row2{
+    color: #5965F3;
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+}
+
+.row3-ul ul {
+    position: relative;
+    bottom: 470px;
+    left: 720px;
+    list-style: none;
+    align-items: center;
+    color: #Ffffff;
+}
+
+.row3-ul ul li{
+    margin-top: 5px
+}
+
+.row3-ul ul li a{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.head-row3{
+    color: #5965F3;
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+}
+
+.row4-ul ul {
+    position: relative;
+    bottom: 850px;
+    left: 920px;
+    list-style: none;
+    align-items: center;
+    color: #Ffffff;
+}
+
+.row4-ul ul li{
+    margin-top: 5px
+}
+
+.row4-ul ul li a{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.head-row4{
+    color: #5965F3;
+    font-weight: bold;
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+}
